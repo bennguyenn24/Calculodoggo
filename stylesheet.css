@@ -1,0 +1,53 @@
+#container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: salmon;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin: 16px;
+    padding: 16px;
+    background-color: salmon;
+}
+
+button{
+    width: 50px;
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: darksalmon; 
+    border-radius: 0%;
+}
+
+.display-container {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    border: black solid;
+    gap: 0px;
+}
+
+#prev-display{
+    font-size: 20px;
+    padding: 14px;
+    width: 168px;
+    text-align: right;
+    background-color: rgb(116, 114, 114);
+    height: 30px;
+    border: grey solid;
+
+}
+
+#current-display {
+    height: 50px;
+    background-color: white;
+}
